@@ -95,5 +95,116 @@
   <ItemGroup>
     <None Include="Resources\Impuls-80_-_Poljot_k_Zvezdam_69568522.mp3" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7e0af0c96271142.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7e0af0c1196271142.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\65df3ac9b3c83bb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111.png.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\406-4068865_score-button-start-button-png-transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\936cf2a0d5334dd80e7e1e9c1d260048.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7416a0511c4f11a1b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7416a0511c4fa1b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11234.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\123456.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\741116a0511c4fa1b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5129812b26dadb8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1644954816_5-phonoteka-org-p-pikselnii-fon-kosmos-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aaa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asteroid Brown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b06ae99d174d7f3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_laser-gun-c11harge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_laser-gun-charge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc06fb47b7b6942.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d8aa5edb2b42e86.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ebb950d7662f362.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif-3-652d12dedd.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fuckkkk %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fuckkkk.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Resize-gRRqzTQv7OHRSE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Resize-gRRqzTQv7111OHRSE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\input-onlinegiftools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinegiftools %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinegiftools.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raketa-i-kosmicheskiy-korabl-animatsionnaya-kartinka-0002.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raketa-i-kosmicheskiy-korabl-animatsionnaya-kartinka-0007.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raketa-i-kosmicheskiy-korabl-animatsionnaya-kartinka-0010.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Space-Rocket-PNG-Download-Image.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

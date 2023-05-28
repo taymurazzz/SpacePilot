@@ -60,7 +60,8 @@ namespace WindowsFormsApp3
         {
             while(PubMeteor.Count > 0)
             {
-                PubMeteor[0].BackgroundImage = Image.FromFile("C:\\Users\\ahsav\\Desktop\\game\\aaa.png");
+                //PubMeteor[0].BackgroundImage = Image.FromFile("C:\\Users\\ahsav\\Desktop\\game\\aaa.png");
+                PubMeteor[0].BackgroundImage = Properties.Resources.aaa; 
                 this.Controls.Remove(PubMeteor[0]);
                 pictureBoxes.Remove(PubMeteor[0]);
                 PubMeteor.Remove(PubMeteor[0]);
@@ -79,7 +80,8 @@ namespace WindowsFormsApp3
                 Laser.Width = 900;
                 Laser.BackgroundImageLayout = ImageLayout.Stretch;
                 Laser.BackColor = Color.Transparent;
-                Laser.BackgroundImage = Image.FromFile("C:\\Users\\ahsav\\Desktop\\game\\ebb950d7662f362.png");
+                //Laser.BackgroundImage = Image.FromFile("C:\\Users\\ahsav\\Desktop\\game\\ebb950d7662f362.png");
+                Laser.BackgroundImage = Properties.Resources.ebb950d7662f362;
                 Laser.Location = new Point(Rocket.Location.X + 100, Rocket.Location.Y + 5);
                 //Laser.Click += Laser_Click; // Добавляем обработчик события для нового пикчербокса
                 Laser.Visible = true;
@@ -93,7 +95,8 @@ namespace WindowsFormsApp3
                 {
                     if (pictureBoxes[i].Location.Y > PubLaser.Location.Y-30 && pictureBoxes[i].Location.Y< PubLaser.Location.Y + 30 && PubLaser.Location.X< pictureBoxes[i].Location.X)
                     {
-                        pictureBoxes[i].BackgroundImage = Image.FromFile("C:\\Users\\ahsav\\Desktop\\game\\aaa.png");
+                        //pictureBoxes[i].BackgroundImage = Image.FromFile("C:\\Users\\ahsav\\Desktop\\game\\aaa.png");
+                        pictureBoxes[i].BackgroundImage = Properties.Resources.aaa;
                         PubMeteor.Add(pictureBoxes[i]);
                         i++;
                     }
@@ -145,7 +148,8 @@ namespace WindowsFormsApp3
             Meteor.Width = 50;
             Meteor.BackgroundImageLayout = ImageLayout.Stretch;
             Meteor.BackColor = Color.Transparent;
-            Meteor.BackgroundImage = Image.FromFile("C:\\Users\\ahsav\\Desktop\\game\\Asteroid Brown.png");
+            //Meteor.BackgroundImage = Image.FromFile("C:\\Users\\ahsav\\Desktop\\game\\Asteroid Brown.png");
+            Meteor.BackgroundImage = Properties.Resources.Asteroid_Brown;
             Meteor.Location = new Point(800, random.Next(30, this.Height-110));//Rocket.Location.Y);
             Meteor.Visible = true;
             pictureBoxes.Add( Meteor );
@@ -168,8 +172,10 @@ namespace WindowsFormsApp3
                 {
                     timer1.Stop();
                     timer2.Stop();
-                    Rocket.Image = Image.FromFile("C:\\Users\\ahsav\\Desktop\\game\\pngwing.com.png");
-                    pictureBoxes[i].BackgroundImage = Image.FromFile("C:\\Users\\ahsav\\Desktop\\game\\aaa.png");
+                    //Rocket.Image = Image.FromFile("C:\\Users\\ahsav\\Desktop\\game\\pngwing.com.png");
+                    Rocket.Image = Properties.Resources.pngwing_com;
+                    //pictureBoxes[i].BackgroundImage = Image.FromFile("C:\\Users\\ahsav\\Desktop\\game\\aaa.png");
+                    pictureBoxes[i].BackgroundImage = Properties.Resources.aaa;
                     //MessageBox.Show("GAME OVEEER");
 
                     DialogResult result = MessageBox.Show($"GAME OVEEER! Your score is {time}", "", MessageBoxButtons.OK);
