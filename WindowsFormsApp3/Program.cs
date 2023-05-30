@@ -17,11 +17,11 @@ namespace WindowsFormsApp3
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            // Создайте экземпляры форм Form1 и Form2
+            // Создание экземпляров форм Form1 и Form2
             Form1 form1 = new Form1();
             Form2 form2 = new Form2();
 
-            // Отобразите Form2
+            // Отображение Form2 - меню
             Application.Run(form2);
         }
     }

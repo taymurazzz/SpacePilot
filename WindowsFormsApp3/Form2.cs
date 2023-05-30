@@ -14,15 +14,16 @@ namespace WindowsFormsApp3
     {
         public Form2()
         {
-            this.BackColor = Color.Blue; // Пример установки синего цвета
-            //this.FormBorderStyle = FormBorderStyle.None; // удаление верхней белой панели
+            //Удаляет кнопки с белой линии формы, запрещает менять размер окна чтобы элементы правильно отображались на форме
+            this.BackColor = Color.Blue; // установки синего цвета
             this.ControlBox = false; // убрать кнопки с панели
             this.FormBorderStyle = FormBorderStyle.FixedSingle; // стиль 
             InitializeComponent();
         }
+        // создает новую игру, скрывает форму меню открывает форму игры
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            // Создайте экземпляр Form1 (если он еще не создан)
+            //  экземпляр Form1 
             Form1 form1 = Application.OpenForms.OfType<Form1>().FirstOrDefault();
             if (form1 == null)
             {
@@ -35,7 +36,7 @@ namespace WindowsFormsApp3
         }
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            Application.ExitThread();
+            Application.ExitThread(); // убирает все открытые окна, полностью обрывает все процессы связанные с программой 
         }
     }
 }
